@@ -1,0 +1,8 @@
+{
+    "name":"matheusmrqs4/api-php",
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    }
+}
