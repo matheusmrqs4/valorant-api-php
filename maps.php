@@ -19,10 +19,8 @@ foreach ($mapsData->data as $map) {
 }
 
 foreach ($maps as $map) {
-    echo "Nome do Mapa: " . $map['displayName'] . "<br>";
-    echo "Coordenadas: " . $map['coordinates'] . "<br>";
+    echo "Nome do Mapa: " . $map['displayName'] . "\n";
+    echo "Coordenadas: " . $map['coordinates'] . "\n";
 
-    echo "<br>";
+    echo "\n";
 }
-
-echo "<hr>";
